@@ -1,0 +1,96 @@
+
+
+.signup {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #f0e5d8;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #555;
+}
+
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="number"],
+.signup input[type="password"]
+ {
+    width: 100%;
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup select {
+    width: 20%;
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup input[type="number"]{
+    width: 79%;
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.signup input[type="radio"] {
+    margin-right: 5px;
+}
+
+.signup input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.signup input[type="submit"]:hover
+ {
+    background-color: green;
+}
+
+.signup p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+}
+
+.signup a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 92px;
+}
+
+.signup a:hover{
+    color: green;
+}
+
+
+
