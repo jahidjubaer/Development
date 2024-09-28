@@ -1,0 +1,30 @@
+.box1{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border:solid 3px aqua ; 
+    box-shadow: 10px 10px 10px rgb(10, 34, 34);
+    padding: auto;
+    margin: auto;
+    
+}
+
+img{
+    width: 600px;
+    height: 340px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+h1{
+    color: aquamarine;
+    background-color: black;
+    margin: auto;
+    font-size: 49px;
+    text-align: center;
+    text-shadow: 5px red;
+    top:0; 
+}

@@ -1,0 +1,20 @@
+h1{
+    
+    background-color: aqua;
+    text-align: center;
+    display: inline;
+}
+h2{
+    background-color: bisque;
+    text-align: center;
+}
+
+span{
+    color: brown;
+    background-color: black;
+    display: block;
+}
+
+ul li {
+    display: inline;
+}

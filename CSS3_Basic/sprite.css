@@ -1,0 +1,28 @@
+div{
+    height: 105px;
+    width: 105px;
+    background-image: url(https://www.saintpats.org/parish/wp-content/uploads/2015/07/social-icons-sprite.png);
+    background-repeat: no-repeat;
+    /*hrer is the main funcationality the value of x y */
+    background-position: 0px -109px;
+
+}
+
+div:hover{
+    background-position: 0px -209px ;
+    
+}
+
+.div2 {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlPFJ3BRe848rq0tczZfLfV9dRtDVphiBj-_7hXzjiEKVjTpf1z8WpU7czHdoSBRq0wE&usqp=CAU);
+    background-repeat: no-repeat;
+    /*hrer is the main funcationality the value of x y */
+    background-position: 0px ;
+}
+
+div:hover{
+    background-position: 0px -120px ;
+    transition: 0.4s;
+}

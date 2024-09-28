@@ -1,0 +1,32 @@
+
+/*grb color : Highest value is 255*/
+h1{
+    color: rgb(255,0,23,0.5);
+}
+
+/*from google color picker and use hexadecimal code*/
+h2{
+    color: #fcfc03;
+    background-color: #4CB5A0;
+
+}
+/*gradient color from left top , you can also use left , top , right , bottom whater you want*/
+.box1{
+    width: 300px;
+    height: 200px;
+    background:linear-gradient(to left top, red,#95afc0)
+}
+
+/*rgb gradient , you can also use degree from indicate form where you gradient started*/
+.box2{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(45deg , rgba(244,55,0,0.9),green); 
+}
+
+/*radial gradient , you can also all the porperties like as normal gradient*/
+.box3{
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(green,blue);
+}

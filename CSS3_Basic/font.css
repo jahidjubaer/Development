@@ -1,0 +1,18 @@
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style:initial;
+    font-size: 100%;
+}
+.p2{
+
+    /*adjustable with phone or desktop view*/
+    font-size: 5vw;
+    /*add from google font*/
+    font-family: 'Oswald', sans-serif;
+}

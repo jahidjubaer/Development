@@ -1,0 +1,86 @@
+.box1{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(40, 240, 220);
+    position: relative;
+    margin: auto;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(.13,.64,.87,.64);
+    border: solid ;
+    border-radius: 40px;
+
+}
+
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(40, 240, 220);
+    position: relative;
+    margin: auto;
+    transition: all 0.5s linear;
+    
+
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    top :40%; 
+    margin: auto;
+
+}
+
+.box1:hover {
+    background-color: black;
+    color: aqua;
+    border-radius: 50%;
+    border: 2px aqua solid;
+}
+
+.box2:hover {
+    background-color: black;
+    color: aqua;
+    border-radius: 50%;
+    border: 2px aqua solid;
+    transform: rotate(360deg);
+}
+
+.box1 h1:hover {
+
+    /*i want to change the div border color when i hover in h1*/
+    color: wheat;
+    border: 2px wheat solid;
+}
+
+.hello{
+    background-color: antiquewhite;
+    
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding-top: 10px;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(.13,.64,.87,.64);
+    border: solid 5px ;
+    border-radius: 50%;
+
+}
+
+.hello:hover {
+    background-color: black;
+    border: solid 5px antiquewhite;
+     transform: rotate(360deg);
+    border-radius: 20%;
+    color: aqua;
+}
+
+.hello h1:hover{
+    color: antiquewhite;
+    border: solid 2px antiquewhite;
+    border-radius: 50%;
+    
+}

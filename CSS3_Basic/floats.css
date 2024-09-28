@@ -1,0 +1,19 @@
+/*right float*/
+.img1{
+    height: 400px;
+    float:right;
+
+}
+/*left float*/
+.img2{
+    height: 400px;
+   float: left;
+}
+/*clear both float*/
+p{
+    font-size: larger;
+    clear: both;
+}
+
+
+

@@ -1,0 +1,25 @@
+div{
+    width: 80%;
+    background-color: aqua;
+
+   border: 10px 12px ; 
+   border-color: black;
+   border-style: solid;
+
+  margin: auto;
+
+   padding: 20px;
+
+   outline: 6px solid  rgb(36, 105, 82) ;
+   outline-offset: 1px;
+    
+}
+
+
+p{
+    
+    border:30px 30px ; 
+    border-color: black;
+    border-style: solid;
+
+}

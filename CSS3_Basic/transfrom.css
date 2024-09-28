@@ -1,0 +1,104 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    /*degree value of transform you can also use positive value to roted opsoite side*/
+    transform: rotate(-45deg);
+    box-shadow: 5px 5px 5px , -5px -5px 5px ;
+    text-align: center;
+}
+
+.box2{
+    width: 200px;
+    height: 180px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    /*transform scale value x and y indecate height and width*/
+    transform: scale(2,1.2);
+    box-shadow: 5px 5px 5px , -5px -5px 5px ;
+    
+}
+
+.box3{
+    width: 200px;
+    height: 180px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    /*you can also use scaley for height transfom*/
+    transform: scalex(3) ; 
+    
+    box-shadow: 5px 5px 5px , -5px -5px 5px ;
+}
+
+.box4{
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    /*you can also use skewx , skewy , or negative value of deg*/
+    transform: skew(45deg);
+    box-shadow: 5px 5px 5px , -5px -5px 5px ;   
+}
+
+.box5{
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    /*its move to x , y */
+    transform: translate(400px,100px) ; 
+    box-shadow: 5px 5px 5px , -5px -5px 5px ;   
+}
+
+.box1 h2{
+    text-align: center;
+    position: relative; 
+    top: 40% ; 
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(45deg);
+}
+
+.box1 h2{
+    text-align: center;
+    position: relative; 
+    top: 40% ; 
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(45deg);
+}
+
+.box2 h2{
+    text-align: center;
+    position: relative; 
+    top: 40% ; 
+    font-family: Arial, Helvetica, sans-serif;
+    transform:scale(1.2,1); 
+}
+
+.box3 h2{
+    text-align: center;
+    position: relative; 
+    top: 40% ; 
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scalex(1.2);
+}
+
+.box4 h2{
+    text-align: center;
+    position: relative; 
+    top: 40% ; 
+    font-family: Arial, Helvetica, sans-serif;
+    transform: skew(45deg) ; 
+}
+
+.box5 h2{
+    text-align: center;
+    position: relative;
+    margin: 40%;
+    font-family: 'Courier New', Courier, monospace;
+}

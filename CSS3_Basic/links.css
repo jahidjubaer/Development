@@ -1,0 +1,43 @@
+.fb{
+    color: rgb(11, 11, 48);
+
+    /*underline out*/
+    text-decoration: none;
+
+    margin: auto;
+    padding: auto;
+    
+
+}
+
+.fb:hover{
+    color: aliceblue;
+    background-color: rgb(11, 11, 48);
+    border-radius: 5%;
+}
+
+.fb:active{
+    color:brown;
+}
+
+.fb:visited{
+    color:aqua;
+}
+
+.insta{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.insta :hover{
+    color: aqua;
+    background-color: black;
+}
+
+.insta :visited{
+    color: blue;
+}
+.insta :active{
+    color: seagreen;
+}

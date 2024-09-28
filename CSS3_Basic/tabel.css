@@ -1,0 +1,26 @@
+
+/*this property doesnot work*/
+ table th td {
+    border: 5px , solid , red;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr{
+    border: 1px solid aqua;
+}
+
+td , th {
+    color:aqua ; 
+    text-align: center;
+    border: 1px solid aqua;
+    line-height: 30px;
+
+}
+
+table {
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    border: 2px solid aqua;
+}

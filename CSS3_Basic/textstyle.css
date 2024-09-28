@@ -1,0 +1,11 @@
+p{
+    color: aqua;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 30px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

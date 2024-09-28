@@ -1,0 +1,34 @@
+/*pseudo class*/
+h1:nth-child(4){
+    color:red;
+    background-color: antiquewhite;
+}
+
+a:hover{
+    color: red;
+    background-color: antiquewhite;
+}
+
+h1:first-child{
+    color: aqua;
+    background-color: black;
+}
+
+/*pseudo element*/
+p::first-letter{
+    color:red;
+    font-size: 100px;
+
+}
+
+p::first-line{
+    color: aqua;
+    background-color: black;
+}
+
+/*how can i costomize this image*/
+h2::after{
+    content: url(https://www.facebook.com/profile.php?id=61566663441958);
+    height: 40px;
+}
+

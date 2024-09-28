@@ -1,0 +1,28 @@
+
+/*overflow is the main thing here . cheeck with and without overflow*/
+.div1{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.div1:hover{
+    opacity: 0.5;
+}
+
+
+.div2 p{
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+    background-color: aqua;
+    opacity: 0.5;
+   
+}
+
+.div2 :hover{
+    opacity: 1.0;
+}
+

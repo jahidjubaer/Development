@@ -1,0 +1,21 @@
+.flexbox{
+    background-color: aqua;
+    display: flex;
+    /*resposive wrap*/
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.flexbox > div{
+    border: solid 5px wheat ; 
+    padding : 30px ; 
+}
+
+/*flex order of div*/
+.flexbox > div:nth-child(2) {
+    order: 1 ;
+}
