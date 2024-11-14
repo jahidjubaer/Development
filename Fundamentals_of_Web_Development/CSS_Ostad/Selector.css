@@ -1,0 +1,29 @@
+/*Element selector*/
+h1 {
+    color: green;
+}
+
+/*Class selector*/
+.my_text_style{
+    color: aqua;
+}
+
+/*ID selector*/
+
+#my_id{
+    color: bisque;
+    font-weight: 400;
+}
+
+/*Universel selector*/
+
+*{
+    background-color:black;
+}
+
+/*Grouph Selector*/
+
+h3, p {
+    font-style: italic;
+    color: aliceblue;
+}
