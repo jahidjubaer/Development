@@ -1,0 +1,21 @@
+.mybtn{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    border-radius: 20%;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
+.mybtn:hover{
+    background-color: black;
+    color: green !important;
+    border-color: green;
+}
+
+/*over write .mybtn:hover. but if i use !important, it will work as that */
+.mybtn:hover{
+    background-color: rgb(192, 34, 34);
+    color: rgb(34, 46, 34);
+    border-color: rgb(143, 145, 35) !important; 
+}

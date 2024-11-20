@@ -1,0 +1,10 @@
+.mybtn{
+    margin: 50px;
+    padding: 10px;
+    padding-top: 100px;
+
+    /*filter */
+    
+    filter: blur(40%);
+    filter: brightness(100%);
+}

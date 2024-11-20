@@ -1,0 +1,9 @@
+:root{
+    --colorprimary : black;
+    --fontsize : 20px
+}
+
+p{
+    color: var(--colorprimary);
+    font-size: var(--fontsize);
+}
